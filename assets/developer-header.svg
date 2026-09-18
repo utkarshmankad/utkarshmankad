@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Utkarsh.dev</title>
+  <desc id="desc">Developer of useful things and professional edge-case collector.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#09161c"/><stop offset=".65" stop-color="#101323"/><stop offset="1" stop-color="#1b0d26"/></linearGradient>
+    <pattern id="scan" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M0 5.5h6" stroke="#51e1e9" stroke-opacity=".035"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect x="2" y="2" width="1196" height="326" rx="18" fill="url(#bg)" stroke="#315c68" stroke-width="2"/>
+  <rect x="2" y="2" width="1196" height="326" rx="18" fill="url(#scan)"/>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+    <text x="48" y="66" fill="#b7f56d" font-size="16" font-weight="700" letter-spacing="2">PLAYER_01 HAS ENTERED THE REPO</text>
+    <text x="48" y="150" fill="#e7edf5" font-size="68" font-weight="800" letter-spacing="-5">UTKARSH<tspan fill="#51e1e9">.DEV</tspan></text>
+    <text x="48" y="202" fill="#c5d1de" font-size="20" font-weight="600">developer of useful things</text>
+    <text x="48" y="236" fill="#c5d1de" font-size="20" font-weight="600">professional edge-case collector<tspan fill="#ff76c8">█</tspan></text>
+    <g font-size="14" fill="#c8d3df"><rect x="48" y="266" width="126" height="36" rx="6" fill="#0b1119" stroke="#3a4c61"/><text x="63" y="289">📍 Bangalore</text><rect x="186" y="266" width="132" height="36" rx="6" fill="#0b1119" stroke="#3a4c61"/><text x="201" y="289">⚙ local-first</text><rect x="330" y="266" width="140" height="36" rx="6" fill="#0b1119" stroke="#3a4c61"/><text x="345" y="289">🧪 always testing</text></g>
+  </g>
+  <g filter="url(#glow)"><rect x="920" y="84" width="14" height="14" fill="#51e1e9"/><rect x="948" y="56" width="14" height="14" fill="#51e1e9"/><rect x="976" y="84" width="14" height="14" fill="#b7f56d"/><rect x="1004" y="112" width="14" height="14" fill="#51e1e9"/><rect x="1032" y="84" width="14" height="14" fill="#ffd166"/><rect x="1060" y="56" width="14" height="14" fill="#51e1e9"/><rect x="1088" y="84" width="14" height="14" fill="#ff76c8"/><rect x="1116" y="112" width="14" height="14" fill="#51e1e9"/><rect x="892" y="112" width="14" height="14" fill="#51e1e9"/><rect x="976" y="140" width="14" height="14" fill="#ae91ff"/><rect x="1032" y="168" width="14" height="14" fill="#b7f56d"/><rect x="1088" y="140" width="14" height="14" fill="#ae91ff"/></g>
+</svg>
